@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "No Translate Remover",
+  "description": "Allow all website to be translated by using Chrome",
+  "version": "1.0",
+  "action": {
+    "default_icon": "images/no_translate.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
